@@ -50,10 +50,23 @@ colorName.value = closestColor;
 <template>
   <main>
     <div class="wrapper">
-      <h1>#{{ color }}</h1>
-        <input type="text" v-model="color" maxlength="6">
-        <div :style="{ background: `#${color}` }" class="color__square"></div>
+      <div class="content__container">
+
+        <div class="color__visual">
+          <div :style="{ background: `#${color}` }" class="color__square"></div>
+          <h1>#{{ color }}</h1>
+        </div>
+ 
+
+      <div class="color-input__container">
+        <input type="text" v-model="color" maxlength="6" class="color_input">
+      </div>
+
+
         <h2>{{ colorName }}</h2>
+
+          
+      </div>
     </div>
   </main>
 </template>
@@ -65,4 +78,35 @@ colorName.value = closestColor;
   height:50px;
 }
 
+.color_input {
+  padding: 1rem 1rem 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: none;
+ 
+}
+.color-input__container {
+  position: relative;
+}
+.color-input__container::after {
+  content: "#";
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #999;
+  font-size: 1rem;
+}
+
+.wrapper {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  min-height: 100vh;
+}
+.color__visual {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
 </style>
