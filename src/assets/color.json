@@ -1,48 +1,530 @@
 [
-    { "color":"maroon", "hex":"800000"},
-    { "color":"olive", "hex":"808000"},
-    { "color":"navy", "hex":"000080"},
-    { "color":"teal", "hex":"008080"},
-    { "color":"purple", "hex":"800080"},
-    { "color":"violet", "hex":"800080"},
-    { "color":"fuchsia", "hex":"FF00FF"},
-    { "color":"lime", "hex":"00FF00"},
-    { "color":"aqua", "hex":"00FFFF"},
-    { "color":"silver", "hex":"C0C0C0"},
-    { "color":"gray", "hex":"808080"},
-    { "color":"grey", "hex":"808080"},
-    { "color":"brown", "hex":"A52A2A"},
-    { "color":"beige", "hex":"F5F5DC"},
-    { "color":"khaki", "hex":"F0E68C"},
-    { "color":"tan", "hex":"D2B48C"},
-    { "color":"gold", "hex":"FFD700"},
-    { "color":"coral", "hex":"FF7F50"},
-    { "color":"salmon", "hex":"FA8072"},
-    { "color":"orchid", "hex":"DA70D6"},
-    { "color":"plum", "hex":"DDA0DD"},
-    { "color":"indigo", "hex":"4B0082"},
-    { "color":"crimson", "hex":"DC143C"},
-    { "color":"hotpink", "hex":"FF69B4"},
-    { "color":"palevioletred", "hex":"DB7093"},
-    { "color":"deeppink", "hex":"FF1493"},
-    { "color":"mediumvioletred", "hex":"C71585"},
-    { "color":"lavender", "hex":"E6E6FA"},
-    { "color":"thistle", "hex":"D8BFD8"},
-    { "color":"peru", "hex":"CD853F"},
-    { "color":"chocolate", "hex":"D2691E"},
-    { "color":"saddlebrown", "hex":"8B4513"},
-    { "color":"sienna", "hex":"A0522D"},
-    { "color":"brown", "hex":"A52A2A"},
-    { "color":"rosybrown", "hex":"BC8F8F"},
-    { "color":"darkgoldenrod", "hex":"B8860B"},
-    { "color":"goldenrod", "hex":"DAA520"},
-    { "color":"palegoldenrod", "hex":"EEE8AA"},
-    { "color":"darkkhaki", "hex":"BDB76B"},
-    { "color":"khaki", "hex":"F0E68C"},
-    { "color":"darkolivegreen", "hex":"556B2F"},
-    { "color":"olive", "hex":"808000"},
-    { "color":"olivedrab", "hex":"6B8E23"},
-    { "color":"darkseagreen", "hex":"8FBC8F"},
-    { "color":"seagreen", "hex":"2E8B57"},
-    { "color":"mediumseagreen", "hex":"3CB371"}
+    {
+        "color": "maroon",
+        "hex": "800000"
+    },
+    {
+        "color": "olive",
+        "hex": "808000"
+    },
+    {
+        "color": "navy",
+        "hex": "000080"
+    },
+    {
+        "color": "teal",
+        "hex": "008080"
+    },
+    {
+        "color": "purple",
+        "hex": "800080"
+    },
+    {
+        "color": "violet",
+        "hex": "800080"
+    },
+    {
+        "color": "fuchsia",
+        "hex": "FF00FF"
+    },
+    {
+        "color": "lime",
+        "hex": "00FF00"
+    },
+    {
+        "color": "aqua",
+        "hex": "00FFFF"
+    },
+    {
+        "color": "silver",
+        "hex": "C0C0C0"
+    },
+    {
+        "color": "gray",
+        "hex": "808080"
+    },
+    {
+        "color": "grey",
+        "hex": "808080"
+    },
+    {
+        "color": "beige",
+        "hex": "F5F5DC"
+    },
+    {
+        "color": "khaki",
+        "hex": "F0E68C"
+    },
+    {
+        "color": "tan",
+        "hex": "D2B48C"
+    },
+    {
+        "color": "gold",
+        "hex": "FFD700"
+    },
+    {
+        "color": "coral",
+        "hex": "FF7F50"
+    },
+    {
+        "color": "salmon",
+        "hex": "FA8072"
+    },
+    {
+        "color": "orchid",
+        "hex": "DA70D6"
+    },
+    {
+        "color": "plum",
+        "hex": "DDA0DD"
+    },
+    {
+        "color": "indigo",
+        "hex": "4B0082"
+    },
+    {
+        "color": "crimson",
+        "hex": "DC143C"
+    },
+    {
+        "color": "hotpink",
+        "hex": "FF69B4"
+    },
+    {
+        "color": "palevioletred",
+        "hex": "DB7093"
+    },
+    {
+        "color": "deeppink",
+        "hex": "FF1493"
+    },
+    {
+        "color": "mediumvioletred",
+        "hex": "C71585"
+    },
+    {
+        "color": "lavender",
+        "hex": "E6E6FA"
+    },
+    {
+        "color": "thistle",
+        "hex": "D8BFD8"
+    },
+    {
+        "color": "peru",
+        "hex": "CD853F"
+    },
+    {
+        "color": "chocolate",
+        "hex": "D2691E"
+    },
+    {
+        "color": "saddlebrown",
+        "hex": "8B4513"
+    },
+    {
+        "color": "sienna",
+        "hex": "A0522D"
+    },
+    {
+        "color": "brown",
+        "hex": "A52A2A"
+    },
+    {
+        "color": "rosybrown",
+        "hex": "BC8F8F"
+    },
+    {
+        "color": "darkgoldenrod",
+        "hex": "B8860B"
+    },
+    {
+        "color": "goldenrod",
+        "hex": "DAA520"
+    },
+    {
+        "color": "palegoldenrod",
+        "hex": "EEE8AA"
+    },
+    {
+        "color": "darkkhaki",
+        "hex": "BDB76B"
+    },
+    {
+        "color": "darkolivegreen",
+        "hex": "556B2F"
+    },
+    {
+        "color": "olivedrab",
+        "hex": "6B8E23"
+    },
+    {
+        "color": "darkseagreen",
+        "hex": "8FBC8F"
+    },
+    {
+        "color": "seagreen",
+        "hex": "2E8B57"
+    },
+    {
+        "color": "mediumseagreen",
+        "hex": "3CB371"
+    },
+    {
+        "color": "black",
+        "hex": "000000"
+    },
+    {
+        "color": "blue",
+        "hex": "0000FF"
+    },
+    {
+        "color": "cyan",
+        "hex": "00FFFF"
+    },
+    {
+        "color": "darkblue",
+        "hex": "00008B"
+    },
+    {
+        "color": "darkcyan",
+        "hex": "008B8B"
+    },
+    {
+        "color": "darkgray",
+        "hex": "A9A9A9"
+    },
+    {
+        "color": "darkgreen",
+        "hex": "006400"
+    },
+    {
+        "color": "darkmagenta",
+        "hex": "8B008B"
+    },
+    {
+        "color": "darkred",
+        "hex": "8B0000"
+    },
+    {
+        "color": "darkslateblue",
+        "hex": "483D8B"
+    },
+    {
+        "color": "darkslategray",
+        "hex": "2F4F4F"
+    },
+    {
+        "color": "darkturquoise",
+        "hex": "00CED1"
+    },
+    {
+        "color": "dimgray",
+        "hex": "696969"
+    },
+    {
+        "color": "green",
+        "hex": "008000"
+    },
+    {
+        "color": "indianred",
+        "hex": "CD5C5C"
+    },
+    {
+        "color": "lightblue",
+        "hex": "ADD8E6"
+    },
+    {
+        "color": "lightcoral",
+        "hex": "F08080"
+    },
+    {
+        "color": "lightgray",
+        "hex": "D3D3D3"
+    },
+    {
+        "color": "lightgreen",
+        "hex": "90EE90"
+    },
+    {
+        "color": "lightpink",
+        "hex": "FFB6C1"
+    },
+    {
+        "color": "lightsalmon",
+        "hex": "FFA07A"
+    },
+    {
+        "color": "lightseagreen",
+        "hex": "20B2AA"
+    },
+    {
+        "color": "lightskyblue",
+        "hex": "87CEFA"
+    },
+    {
+        "color": "lightslategray",
+        "hex": "778899"
+    },
+    {
+        "color": "lightsteelblue",
+        "hex": "B0C4DE"
+    },
+    {
+        "color": "magenta",
+        "hex": "FF00FF"
+    },
+    {
+        "color": "mediumaquamarine",
+        "hex": "66CDAA"
+    },
+    {
+        "color": "mediumblue",
+        "hex": "0000CD"
+    },
+    {
+        "color": "mediumorchid",
+        "hex": "BA55D3"
+    },
+    {
+        "color": "mediumpurple",
+        "hex": "9370DB"
+    },
+    {
+        "color": "mediumslateblue",
+        "hex": "7B68EE"
+    },
+    {
+        "color": "mediumspringgreen",
+        "hex": "00FA9A"
+    },
+    {
+        "color": "mediumturquoise",
+        "hex": "48D1CC"
+    },
+    {
+        "color": "midnightblue",
+        "hex": "191970"
+    },
+    {
+        "color": "navajowhite",
+        "hex": "FFDEAD"
+    },
+    {
+        "color": "orangered",
+        "hex": "FF4500"
+    },
+    {
+        "color": "pink",
+        "hex": "FFC0CB"
+    },
+    {
+        "color": "royalblue",
+        "hex": "4169E1"
+    },
+    {
+        "color": "sandybrown",
+        "hex": "F4A460"
+    },
+    {
+        "color": "seashell",
+        "hex": "FFF5EE"
+    },
+    {
+        "color": "skyblue",
+        "hex": "87CEEB"
+    },
+    {
+        "color": "slateblue",
+        "hex": "6A5ACD"
+    },
+    {
+        "color": "slategray",
+        "hex": "708090"
+    },
+    {
+        "color": "snow",
+        "hex": "FFFAFA"
+    },
+    {
+        "color": "springgreen",
+        "hex": "00FF7F"
+    },
+    {
+        "color": "steelblue",
+        "hex": "4682B4"
+    },
+    {
+        "color": "tomato",
+        "hex": "FF6347"
+    },
+    {
+        "color": "turquoise",
+        "hex": "40E0D0"
+    },
+    {
+        "color": "whitesmoke",
+        "hex": "F5F5F5"
+    },
+    {
+        "color": "yellow",
+        "hex": "FFFF00"
+    },
+    {
+        "color": "yellowgreen",
+        "hex": "9ACD32"
+    },
+    {
+        "color": "aliceblue",
+        "hex": "F0F8FF"
+    },
+    {
+        "color": "antiquewhite",
+        "hex": "FAEBD7"
+    },
+    {
+        "color": "aquamarine",
+        "hex": "7FFFD4"
+    },
+    {
+        "color": "azure",
+        "hex": "F0FFFF"
+    },
+    {
+        "color": "bisque",
+        "hex": "FFE4C4"
+    },
+    {
+        "color": "blanchedalmond",
+        "hex": "FFEBCD"
+    },
+    {
+        "color": "burlywood",
+        "hex": "DEB887"
+    },
+    {
+        "color": "cadetblue",
+        "hex": "5F9EA0"
+    },
+    {
+        "color": "chartreuse",
+        "hex": "7FFF00"
+    },
+    {
+        "color": "cornflowerblue",
+        "hex": "6495ED"
+    },
+    {
+        "color": "cornsilk",
+        "hex": "FFF8DC"
+    },
+    {
+        "color": "darkorange",
+        "hex": "FF8C00"
+    },
+    {
+        "color": "darksalmon",
+        "hex": "E9967A"
+    },
+    {
+        "color": "darkviolet",
+        "hex": "9400D3"
+    },
+    {
+        "color": "dodgerblue",
+        "hex": "1E90FF"
+    },
+    {
+        "color": "floralwhite",
+        "hex": "FFFAF0"
+    },
+    {
+        "color": "ghostwhite",
+        "hex": "F8F8FF"
+    },
+    {
+        "color": "greenyellow",
+        "hex": "ADFF2F"
+    },
+    {
+        "color": "honeydew",
+        "hex": "F0FFF0"
+    },
+    {
+        "color": "ivory",
+        "hex": "FFFFF0"
+    },
+    {
+        "color": "lavenderblush",
+        "hex": "FFF0F5"
+    },
+    {
+        "color": "lemonchiffon",
+        "hex": "FFFACD"
+    },
+    {
+        "color": "lightcyan",
+        "hex": "E0FFFF"
+    },
+    {
+        "color": "lightgoldenrodyellow",
+        "hex": "FAFAD2"
+    },
+    {
+        "color": "lightgrey",
+        "hex": "D3D3D3"
+    },
+    {
+        "color": "lightyellow",
+        "hex": "FFFFE0"
+    },
+    {
+        "color": "linen",
+        "hex": "FAF0E6"
+    },
+    {
+        "color": "mintcream",
+        "hex": "F5FFFA"
+    },
+    {
+        "color": "mistyrose",
+        "hex": "FFE4E1"
+    },
+    {
+        "color": "oldlace",
+        "hex": "FDF5E6"
+    },
+    {
+        "color": "papayawhip",
+        "hex": "FFEFD5"
+    },
+    {
+        "color": "peachpuff",
+        "hex": "FFDAB9"
+    },
+    {
+        "color": "powderblue",
+        "hex": "B0E0E6"
+    },
+    {
+        "color": "violet",
+        "hex": "EE82EE"
+    },
+    {
+        "color": "wheat",
+        "hex": "F5DEB3"
+    },
+    {
+        "color": "forestgreen",
+        "hex": "228B22"
+    },
+    {
+        "color": "limegreen",
+        "hex": "32CD32"
+    },
+    {
+        "color": "palegreen",
+        "hex": "98FB98"
+    }
 ]
