@@ -15,7 +15,6 @@ let database = colorDatabase
 
 console.log("DATABSE", colorDatabase.length)
 
-
 function findRepetitions(arr) {
   const seen = new Set();
   const repetitions = [];
@@ -38,13 +37,6 @@ const repeatedObjects = findRepetitions(colorDatabase);
 
 console.log("REPEATED",repeatedObjects.length);  
 
-
-
-
-
-
-
-
 const unique = ref()
 
 
@@ -66,11 +58,8 @@ unique.value = colorDatabase.reduce((acc, obj) => {
 console.log("UNIQUE",unique.value.length);
 
 
-
 var array3 = colorDatabase.filter(function(obj) { return repeatedObjects.indexOf(obj) == -1; });
 console.log(array3)
-
-
 
 
 watch(color, ( newValue, oldValue ) => {  
